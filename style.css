@@ -1,7 +1,7 @@
 /* reset browser css*/
 * {
-  margin: 0.5;
-  padding: 0.5;
+  margin: 0,5px;
+  padding: 0px;
   box-sizing: border-box;
 }
 /* main */
@@ -16,17 +16,12 @@ a {
 h1 {
   padding-bottom: 20px;
 }
-.my-header {
-    background-color: #4CAF50; /* Roheline taust */
-    color: white; /* Teksti värv */
-    padding: 20px; /* Ümbruse täitmine */
-    text-align: center; /* Teksti keskjoondamine */
-}
 
 .header {
   background-color: hwb(34 42% 33%);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -35,13 +30,23 @@ h1 {
 
 /* navbar */
 .navbar ul{
-  background: hwb(34 42% 33%)
+ 
   color: #fff;
   overflow: auto;
   display: flex;
+  gap: 10px;
+}
+li {
+    list-style: none;
 }
 /* #navbar */
 a {
     color: hsl(0, 0%, 0%);
 }
-  
+body {
+  background-image: url('lill.jpg.jpg');
+  background-size: auto;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}

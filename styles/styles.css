@@ -1,18 +1,31 @@
-/* reset browser css*/
-* {
-  margin: 0,5px;
-  padding: 0px;
-  box-sizing: border-box;
+/* navbar */
+.navbar ul {
+  color: #fff;
+  overflow: auto;
+  display: flex;
+  gap: 10px;
 }
+
+li {
+  list-style: none;
+}
+
+/* #navbar */
+a {
+  color: hsl(0, 0%, 0%);
+}
+
 /* main */
-html,body {
+html, body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em;
 }
+
 a {
   color: black;
   text-decoration: none;
 }
+
 h1 {
   padding-bottom: 20px;
 }
@@ -26,20 +39,4 @@ h1 {
 
 .logo {
   /* background-color: brown; */
-}
-
-/* navbar */
-.navbar ul{
- 
-  color: #fff;
-  overflow: auto;
-  display: flex;
-  gap: 10px;
-}
-li {
-    list-style: none;
-}
-/* #navbar */
-a {
-    color: hsl(0, 0%, 0%);
-}
+}/*# sourceMappingURL=styles.css.map */

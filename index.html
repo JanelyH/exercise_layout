@@ -1,79 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/1a2da0992a.js" crossorigin="anonymous"></script>
-    <title>Keerulisem Paigutus</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-</head>
+    <title>Minu bränd</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
 <body>
     <header class="header">
-        <div class="logo">
-            <h1>Minu Bränd</h1>
+        <div class="container">
+            <div class="header-content">
+                <div class="brand">
+                    MINU BRÄND
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">BLOGI</a></li>
+                        <li><a href="#">KONTAKT</a></li>
+                        <li><a href="#">KKK</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Kodu</a></li>
-                <li><a href="#">Teenused</a></li>
-                <li><a href="#">Blogi</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
-        </nav>
     </header>
-    <main class="main-content">
-        <div class="welcome-box">
-            <article>
-                <h2>Tere tulemast!</h2>
-                <p>
-                    Räägin Teile lähemalt, millega tegeleb meie ettevõte ning, kuidas sai alguse meie oma bränd.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat ipsum nec tellus ultricies...
-                </p>
-            </article>
-        </div>
 
-        <aside class="sidebar">
-            <h3>Külgriba</h3>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
-            </ul>
-        </aside>
-
-        <section class="gallery">
-            <h3>Pildigalerii</h3>
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="img/arvuti.png" alt="arvuti">
+    <section class="content">
+        <div class="container">
+            <div class="content-grid">
+                <div class="text-content">
+                    <h3>Tere tulemast!!!!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
-                <div class="gallery-item">
-                    <img src="img/idee.jpg" alt="idee">
-                </div>
-                <div class="gallery-item">
-                    <img src="img/mõte.jpg" alt="mõte">
-                </div>
-                <div class="gallery-item">
-                    <img src="img/inimesed.jpg" alt="inimesed">
+                <div class="buttons">
+                    <button class="button">TEENUSED</button>
+                    <button class="button">HINNAKIRI</button>
+                    <button class="button">TAGASISIDE</button>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Pildigalerii</h2>
+            <div class="gallery-grid">
+                <img src="img/arvuti.png" alt="arvuti.png">
+                <img src="img/facebookleht.png" alt="facebookleht.png">
+                <img src="img/idee.jpg" alt="idee.jpg">
+                <img src="img/mõte.jpg" alt="mõte.jpg">
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
-        <div class="social">
-            <p>Jälgi meid:</p>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social">
+                    Jälgi meid:
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                </div>
+                <div class="copyright">
+                    2025 Minu bränd
+                </div>
             </div>
-        </div>
-        <div class="copy">
-            <p>&copy; 2024 Minu Bränd</p>
         </div>
     </footer>
 </body>
